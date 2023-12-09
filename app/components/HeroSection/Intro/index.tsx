@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="flex flex-col w-2/5 border-r-2 border-purple-400 p-4">
       <TypeWriter strings={getGreetings} />
       <div className="text-white section-header">
-        I'm Rushabh Dave
+        I&apos;m Rushabh Dave
         <span
           className="ml-2"
           style={{
