@@ -10,7 +10,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const { data } = await axios.get(`${process.env.URL}/api/getMenus`)
+  const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/getMenus`)
   return (
     <html lang="en">
       <body className={inter.className}>
