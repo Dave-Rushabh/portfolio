@@ -10,7 +10,7 @@ import Image from 'next/image'
 const CreativeCircle = () => {
   return (
     <>
-      <div className="flex w-3/5 items-center justify-center relative">
+      <div className="flex max-xl:w-full max-xl:mt-[110px] mt-0 w-3/5 items-center justify-center relative">
         <div className="absolute h-20 w-20 bottom-0 right-0 flex justify-center items-center rounded-full bg-purple-400">
           <StarsSVG />
         </div>
